@@ -2,6 +2,12 @@
 
 Aplicação Python que roda na bandeja do sistema (traybar) e permite registrar rapidamente objetos com status e timestamp.
 
+Como usar:
+- Extraia o .zip;
+- Abra o .exe;
+- Atalho CTRL + 0;
+- O app roda na tray.
+
 Funcionalidades:
 - Ícone na tray com menu: Histórico, Novo registro, Sair.
 - Atalho global `Ctrl+0` para abrir a barra de adição centralizada.
