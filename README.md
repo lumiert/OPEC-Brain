@@ -15,10 +15,7 @@ Funcionalidades:
 - Tela de Histórico exibindo tabela com os registros.
 - Campo aceita "nome do objeto | status" para enviar em uma linha. Ex.: `Contrato 123 | pronto`.
 
-Requisitos:
-- Python 3.10+ no Windows.
-- `tkinter` (parte da instalação padrão do Python para Windows).
-- Pacotes: pystray, Pillow, keyboard.
+### Desenvolvimento
 
 Instalação:
 ```powershell
@@ -31,7 +28,7 @@ python .\main.py
 ```
 
 Observações:
-- UI moderna com `ttkbootstrap` tema `cyborg` (dark) e janelas em "always-on-top" para acesso rápido.
+- UI moderna com `qt` e janelas em "always-on-top" para acesso rápido.
 - Em alguns sistemas, o `keyboard` pode requerer privilégios de administrador para registrar hotkeys globais. Se o atalho não funcionar, tente abrir o terminal como Administrador.
 - O arquivo de histórico é criado automaticamente se não existir.
-- Ícones Phosphor: baixe ícones PNG de https://phosphoricons.com e coloque em `common/icons` (ex.: `brain.png`, `clipboard-text.png`). O app detecta automaticamente se disponíveis.
+- Ícones Phosphor: https://phosphoricons.com.
